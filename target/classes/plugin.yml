@@ -1,0 +1,11 @@
+name: Fly
+version: 1.0
+main: org.splendid.fly.Fly
+commands:
+  fly:
+    description: Give/take flight permission to/from players.
+    usage: /fly
+permissions:
+  fly.admin:
+    description: Admin flight permission.
+    default: op
